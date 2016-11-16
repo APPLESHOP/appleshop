@@ -554,6 +554,123 @@ header ul li .current{
     margin-top: 30px;
 }
 
+/*registration page*/
+.reg_form{
+    padding: 100px;
+    background: #fbfafa;
+}
+
+.reg_form h2{
+    text-align: center;
+}
+.reg_form .form{
+    width: 670px;
+    margin: 0 auto;
+}
+
+.reg_form .form .name,
+.reg_form .form .email{
+    display: inline-block;
+    width: 270px;   
+    margin: 0;
+    margin-bottom: 50px;
+}
+
+.reg_form .form .name{
+    float: left;
+}
+
+.reg_form .form .email{
+    float: right;
+}
+
+.reg_form .form .phone{
+    display: block;
+    width: 630px;
+    margin-bottom: 50px;
+}
+
+.reg_form .form .about{
+    display: block;
+    max-width: 630px;
+    min-width: 630px;
+    min-height: 260px;
+}
+
+.reg_form .form .name,
+.reg_form .form .email,
+.reg_form .form .phone,
+.reg_form .form .about{
+    padding: 18px 20px;
+    border: 1px solid #e0e2e5;
+
+    color: #414751;
+    font-family: "raleway-regular", arial;
+    font-size: 14px;
+    letter-spacing: 1px;
+    outline: none;
+}
+
+.reg_form .form .name:focus,
+.reg_form .form .email:focus,
+.reg_form .form .phone:focus,
+.reg_form .form .about:focus{
+    border: 1px solid #fc884f;
+
+    transition: all .2s linear;
+    -webkit-transition: all .2s linear;
+}
+
+.reg_form .form .submit{
+    background: #fb874f;
+    padding: 30px 40px;
+    border: 0!important;
+    margin-top: 50px;
+
+    color: #fff;
+    font-family: "raleway-regular", arial;
+    font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+
+    transition: all .2s linear;
+    -webkit-transition: all .2s linear;
+}
+
+.reg_form .form .submit:hover{
+    cursor: pointer;
+    background: #ec7236;
+}
+
+
+.reg_form .form .name::-webkit-input-placeholder,
+.reg_form .form .email::-webkit-input-placeholder,
+.reg_form .form .phone::-webkit-input-placeholder,
+.reg_form .form .about::-webkit-input-placeholder {
+   color: #e0e2e5;
+}
+
+.reg_form .form .name:-moz-placeholder ,
+.reg_form .form .email:-moz-placeholder , 
+.reg_form .form .phone:-moz-placeholder, 
+.reg_form .form .about:-moz-placeholder { 
+   color: #e0e2e5;  
+}
+
+.reg_form .form .name::-moz-placeholder ,
+.reg_form .form .email::-moz-placeholder ,
+.reg_form .form .phone::-moz-placeholder,
+.reg_form .form .about::-moz-placeholder { 
+   color: #e0e2e5;  
+}
+
+.reg_form .form .name:-ms-input-placeholder,  
+.reg_form .form .email:-ms-input-placeholder,  
+.reg_form .form .phone:-ms-input-placeholder,  
+.reg_form .form .about:-ms-input-placeholder {  
+   color: #e0e2e5;  
+} 
+
 /*  contact page  */
 .contact_info{
     padding: 100px 0;
