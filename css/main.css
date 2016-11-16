@@ -194,20 +194,20 @@ header ul li .current{
     margin-bottom: 100px;
 }
 
-/*  services  */
-.services_home,
-.services{
+/*  news  */
+.news_home,
+.news{
     overflow: hidden;
     padding: 10px;
     background: #fbfafa;
 }
 
-.services{
+.news{
     background: #ffffff;
 }
 
-.services_home ul li,
-.services ul li{
+.news_home ul li,
+.news ul li{
     list-style: none;
     display: block;
     width: 313px;
@@ -216,20 +216,20 @@ header ul li .current{
     text-align: center;
 }
 
-.services ul li{
+.news ul li{
     margin-bottom: 80px;
 }
 
-.services_home ul li:last-child{
+.news_home ul li:last-child{
     margin-right: 0;
 }
 
-.services ul li:nth-child(3n+0){
+.news ul li:nth-child(3n+0){
     margin-right: 0;
 }
 
-.services_home ul li h1,
-.services ul li h1{
+.news_home ul li h1,
+.news ul li h1{
     color: #616771;
     font-family: "raleway-semibold", arial;
     font-weight: bold;
@@ -239,8 +239,8 @@ header ul li .current{
     letter-spacing: 1px;
 }
 
-.services_home ul li p,
-.services ul li p{
+.news_home ul li p,
+.news ul li p{
     color: #898d94;
     font-family: "raleway-regular", arial;
     font-size: 14px;
