@@ -198,7 +198,7 @@ header ul li .current{
 .news_home,
 .news{
     overflow: hidden;
-    padding: 10px;
+    padding: 10px 0;
     background: #fbfafa;
 }
 
@@ -217,7 +217,7 @@ header ul li .current{
 }
 
 .news ul li{
-    margin-bottom: 80px;
+    margin-bottom: 80px 0;
 }
 
 .news_home ul li:last-child{
@@ -254,7 +254,7 @@ header ul li .current{
 }
 
 .work_details .columns{
-    margin-bottom: 80px;
+    margin-bottom: 80px 0;
     overflow: hidden;
 }
 
@@ -288,7 +288,7 @@ header ul li .current{
 }
 
 .about .columns{
-    margin-bottom: 100px;
+    margin-bottom: 100px 0;
 }
 
 .about .columns:last-child{
@@ -503,7 +503,7 @@ header ul li .current{
 /*  process  */
 .process{
     overflow: hidden;
-    padding: 40px;
+    padding: 40px 0;
     background: #fbfafa;
 }
 
@@ -550,7 +550,7 @@ header ul li .current{
 
 /*registration page*/
 .reg_form{
-    padding: 100px;
+    padding: 100px 0;
     background: #fbfafa;
 }
 
