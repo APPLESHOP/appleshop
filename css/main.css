@@ -665,6 +665,98 @@ header ul li .current{
    color: #e0e2e5;  
 } 
 
+/* Your Personal Area */
+
+
+.pers_form{
+    
+    padding: 100px 0;
+    background: #fbfafa;
+}
+
+.pers_form h2{
+    text-align: center;
+}
+.pers_form .form{
+    width: 670px;
+    margin: 0 auto;text-align: center;
+}
+
+.pers_form .form .email
+.pers_form .form .password{
+    display: inline-block;
+    width: 270px;   
+    margin: 0;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.pers_form .form .email{
+    
+}
+
+.pers_form .form .password{
+   
+}
+
+.pers_form .form .email,
+.pers_form .form .password{
+    padding: 18px 20px;
+    border: 1px solid #e0e2e5;
+
+    color: #414751;
+    font-family: "raleway-regular", arial;
+    font-size: 14px;
+    letter-spacing: 1px;
+    outline: none;
+}
+
+
+.pers_form .form .email:focus,
+.pers_form .form .password:focus{
+    border: 1px solid #fc884f;
+
+    transition: all .2s linear;
+    -webkit-transition: all .2s linear;
+}
+
+.pers_form .form .submit{
+    background: #fb874f;
+    padding: 20px 30px;
+    border: 0!important;
+    margin-top: 20px;
+
+    color: #fff;
+    font-family: "raleway-regular", arial;
+    font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+
+    transition: all .2s linear;
+    -webkit-transition: all .2s linear;
+}
+
+.pers_form .form .submit:hover{
+    cursor: pointer;
+    background: #ec7236;
+}
+
+
+.pers_form .form .email::-webkit-input-placeholder,
+.pers_form .form .password::-webkit-input-placeholder{
+   color: #e0e2e5;
+}
+
+.pers_form .form .email:-moz-placeholder , 
+.pers_form .form .password:-moz-placeholder{ 
+   color: #e0e2e5;  
+}
+
+.pers_form .form .email::-moz-placeholder ,
+.pers_form .form .password::-moz-placeholder{ 
+   color: #e0e2e5;  
+}
+
 /*  contact page  */
 .contact_info{
     padding: 100px 0;
