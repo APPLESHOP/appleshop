@@ -695,6 +695,7 @@ header ul li .current{
     font-family: "raleway-regular", arial;
     font-size: 14px;
     letter-spacing: 1px;
+    outline: none;
 }
 
 .reg_form .form .submit{
@@ -708,6 +709,7 @@ header ul li .current{
     font-size: 14px;
     text-transform: uppercase;
     letter-spacing: 1px;
+    outline: none;
 }
 
 .reg_form .form .submit:hover{
@@ -772,9 +774,7 @@ header ul li .current{
     font-size: 14px;
     text-transform: uppercase;
     letter-spacing: 1px;
-
-    transition: all .2s linear;
-    -webkit-transition: all .2s linear;
+    outline: none;
 }
 
 .pers_form .form .submit:hover{
@@ -867,6 +867,7 @@ header ul li .current{
     font-family: "raleway-regular", arial;
     font-size: 14px;
     letter-spacing: 1px;
+    outline: none;
 }
 
 .contact_form .form .submit{
@@ -880,6 +881,7 @@ header ul li .current{
     font-size: 14px;
     text-transform: uppercase;
     letter-spacing: 1px;
+    outline: none;
 }
 
 .contact_form .form .submit:hover{
